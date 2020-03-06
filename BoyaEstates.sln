@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoyaEstates.Web", "BoyaEstates.Web\BoyaEstates.Web.csproj", "{57CB2659-8F3D-4271-B814-AAE357052C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoyaEstates.Web", "BoyaEstates.Web\BoyaEstates.Web.csproj", "{57CB2659-8F3D-4271-B814-AAE357052C20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoyaEstates.Data", "BoyaEstates.Data\BoyaEstates.Data.csproj", "{48F0BA5A-C9D3-44B2-ACDF-474DEF4F69C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{57CB2659-8F3D-4271-B814-AAE357052C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CB2659-8F3D-4271-B814-AAE357052C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CB2659-8F3D-4271-B814-AAE357052C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F0BA5A-C9D3-44B2-ACDF-474DEF4F69C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F0BA5A-C9D3-44B2-ACDF-474DEF4F69C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F0BA5A-C9D3-44B2-ACDF-474DEF4F69C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F0BA5A-C9D3-44B2-ACDF-474DEF4F69C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,49 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Services section (Start) -->
+<div id="services" class="offset narrow">
+    <div class="card-deck col-ml-6">
+        <div class="card">
+
+            <img class="card-img-top" src="~/img/apple.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Sales</h5>
+                <p class="card-text">
+                    Browse unique properties on the market.
+                </p>
+                <a class="btn btn-outline-light btn-lg" asp-area="" asp-controller="Properties" asp-action="Sales"> Go to Sales</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last property added @*@Model.Sales.LastProperty.AddedOn*@ 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/apple.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Rents</h5>
+                <p class="card-text">
+                    Select from ready to rent properties.
+                </p>
+                <a class="btn btn-outline-light btn-lg" asp-area="" asp-controller="Properties" asp-action="Rents"> Go to Rentals</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last property added @*@Model.Rentals.LastProperty.AddedOn*@ 3 mins ago</small>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="img/apple.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title text-center">Property management</h5>
+                <p class="card-text">
+                    Services for home owners, landlord, investors. 
+                </p>
+                <a class="btn btn-outline-light btn-lg" asp-area="" asp-controller="Properties" asp-action="Management"> Go to Properties</a>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last property added @*@Model.Managed.LastProperty.AddedOn*@ 3 mins ago</small>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- Services section (End) -->
