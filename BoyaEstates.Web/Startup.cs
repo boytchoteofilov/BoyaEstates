@@ -26,8 +26,7 @@ namespace BoyaEstates.Web
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<BoyaEstatesDbContext>(options =>
-                options.UseSqlServer(this.Configuration.GetConnectionString("DefaultConnection")));
-
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllersWithViews();
         }
